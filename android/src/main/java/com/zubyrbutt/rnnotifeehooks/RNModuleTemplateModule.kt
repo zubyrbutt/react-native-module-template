@@ -1,4 +1,4 @@
-package com.alexdemchenko.reactnativemoduletemplate
+package com.zubyrbutt.rnnotifeehooks
 
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactContextBaseJavaModule

@@ -1,4 +1,4 @@
-package com.alexdemchenko.reactnativemoduletemplate
+package com.zubyrbutt.rnnotifeehooks
 
 import com.facebook.react.ReactPackage
 import com.facebook.react.bridge.NativeModule

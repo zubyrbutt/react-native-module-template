@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
-import RNModuleTemplateModule, { Counter } from 'react-native-module-template'
+import RNModuleTemplateModule, { TestNotification } from 'rn-notifee-hooks'
 
 const App = () => {
   useEffect(() => {
     console.log(RNModuleTemplateModule)
   })
 
-  return <Counter />
+  return <TestNotification />
 }
 
 export default App

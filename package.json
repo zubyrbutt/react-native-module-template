@@ -1,17 +1,17 @@
 {
-  "name": "react-native-module-template",
-  "version": "2.5.1",
-  "description": "A starter for the React Native library written in TypeScript, with linked example project and optional native code in Swift and Kotlin.",
-  "homepage": "https://github.com/demchenkoalex/react-native-module-template#readme",
+  "name": "rn-notifee-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/demchenkoalex/rn-notifee-hooks#readme",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "author": "Alex Demchenko <alexdemchenko@yahoo.com>",
+  "author": "zubyrbutt <zubyrbutt@gmail.com>",
   "license": "MIT",
   "files": [
     "android",
     "ios",
     "lib",
-    "react-native-module-template.podspec",
+    "rn-notifee-hooks.podspec",
     "!android/build",
     "!.DS_Store",
     "!.gradle",
@@ -35,6 +35,7 @@
   "devDependencies": {
     "@babel/core": "^7.16.12",
     "@babel/runtime": "^7.16.7",
+    "@notifee/react-native": "^7.6.1",
     "@react-native-community/eslint-config": "^3.0.1",
     "@types/jest": "^27.4.0",
     "@types/react-native": "^0.66.15",
@@ -51,7 +52,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "@notifee/react-native": "*"
   },
   "jest": {
     "preset": "react-native",
@@ -63,5 +65,8 @@
       "json",
       "node"
     ]
+  },
+  "dependencies": {
+    "rn-simple-hooks": "^1.0.8"
   }
 }
